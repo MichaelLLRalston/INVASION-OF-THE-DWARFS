@@ -31,7 +31,7 @@ public:
 		animationName = "Dwarf";
 		textureName = "DwarfFont";
 
-		x = 25;
+		x = 400;
 		y = 600;
 	}
 

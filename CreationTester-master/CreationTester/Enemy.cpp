@@ -9,7 +9,6 @@
 void Enemy::update()
 {
 	GameObject::update(); // Update animations
-	rever = false;
 
 	Timer += sfw::getDeltaTime();
 
@@ -23,27 +22,30 @@ void Enemy::update()
 	}
 
 
-	/* THIS PIECE BELOW IS CURRENTLY BROKEN!!!!!!*/
 
-	if ( rever = false && Timer > 2.f && x != 750)
+	// send it to the right
+	if ( rever == false && Timer > 0.5f && x != 750)
 	{
-		Timer -= 2.f;
+		Timer -= 0.5f;
 		x += 25;
 	}
-	else if (rever = true && Timer > 2.f && x != 25)
+	// left
+	else if (rever == true && Timer > 0.5f && x != 25)
 	{
-		Timer -= 2.f;
+		Timer -= 0.5f;
 		x -= 25;
 	}
-	if (rever = true && x == 25 && Timer > 2.f)
+	// down if too far to the left
+	if (rever == true && x <= 25 && Timer > 0.5f)
 	{
-		Timer -= 2.f;
+		Timer -= 0.5f;
 		rever = false;
 		y -= 25;
 	}
-	else if (rever = false && x == 750 && Timer > 2.f)
+	// down if too far to the right
+	else if (rever == false && x >= 750 && Timer > 0.5f)
 	{
-		Timer -= 2.f;
+		Timer -= 0.5f;
 		rever = true;
 		y -= 25;
 	}

@@ -1,38 +1,9 @@
-﻿Build started 12/7/2015 5:23:26 PM.
-     1>Project "C:\Users\michael.ralston\Downloads\CreationTester-master\CreationTester-master\CreationTester\CreationTester.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Enemy.cpp Main.cpp Player.cpp
-         Enemy.cpp
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(28): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(67): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(83): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(84): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(96): warning C4018: '<': signed/unsigned mismatch
-         Generating Code...
-         Compiling...
-         Player.cpp
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(28): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(67): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(83): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(84): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(96): warning C4018: '<': signed/unsigned mismatch
-         Main.cpp
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(28): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(67): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(83): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(84): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\gamestate.h(96): warning C4018: '<': signed/unsigned mismatch
-     1>c:\users\michael.ralston\downloads\creationtester-master\creationtester-master\creationtester\main.cpp(37): warning C4101: 'current': unreferenced local variable
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\michael.ralston\Downloads\CreationTester-master\CreationTester-master\Debug\CreationTester.exe" /INCREMENTAL /NOLOGO sfw_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\michael.ralston\Downloads\CreationTester-master\CreationTester-master\Debug\CreationTester.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\michael.ralston\Downloads\CreationTester-master\CreationTester-master\Debug\CreationTester.lib" /MACHINE:X86 Debug\AssetLibrary.obj
-         Debug\collisiontests.obj
-         Debug\Enemy.obj
-         Debug\Main.obj
-         Debug\Player.obj
-         CreationTester.vcxproj -> C:\Users\michael.ralston\Downloads\CreationTester-master\CreationTester-master\Debug\CreationTester.exe
-     1>Done Building Project "C:\Users\michael.ralston\Downloads\CreationTester-master\CreationTester-master\CreationTester\CreationTester.vcxproj" (Build target(s)).
+﻿Build started 12/15/2015 2:41:26 PM.
+     1>Project "C:\Users\Michael.Ralston\Documents\GitHub\INVASION-OF-THE-DWARFS\CreationTester-master\CreationTester\CreationTester.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         CreationTester.vcxproj -> C:\Users\Michael.Ralston\Documents\GitHub\INVASION-OF-THE-DWARFS\CreationTester-master\Debug\CreationTester.exe
+     1>Done Building Project "C:\Users\Michael.Ralston\Documents\GitHub\INVASION-OF-THE-DWARFS\CreationTester-master\CreationTester\CreationTester.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.60
+Time Elapsed 00:00:00.15
